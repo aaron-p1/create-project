@@ -1,0 +1,17 @@
+templates:
+  variables:
+    project_type:
+      name: Project type
+      type: select
+      values:
+        cmake: Cmake
+      default: cmake
+  selection_variable: project_type
+  templates:
+    cmake:
+      variables:
+        project_name:
+          name: Name of project
+          type: text
+          default: project
+      path: cpp/cmake

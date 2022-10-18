@@ -1,0 +1,4 @@
+/.direnv/
+/result
+/create_project.egg-info/
+__pycache__
