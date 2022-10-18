@@ -20,7 +20,7 @@
         packages = rec {
           create-project = buildPythonApplication {
             pname = "create-project";
-            version = "0.1.0";
+            version = "0.1.1";
             src = ./.;
 
             propagatedBuildInputs = with pythonPackages; [ pyyaml inquirer ];
